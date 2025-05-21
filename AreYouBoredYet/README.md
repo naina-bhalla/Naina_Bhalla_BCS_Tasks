@@ -71,12 +71,13 @@ These features were chosen based on the references mentioned below.
 - **Results:**  
   MAE values ranged from 0.17 to 0.20 across sessions.
 
-    |session                             |	n_trials|	mae     |
-1	|81362661-8f80-45b1-90ad-749251c9fe13|	865	    | 0.172339  |
-2	|a4f7079b-d157-4de9-ba80-de9a98f35c8b|	682	    | 0.177259  |
-0	|a55aafed-b496-49fb-8948-680695f806d5|	1022	| 0.181604  |
-3	|85501aad-64e6-4137-a44e-2c933c9eec5f|	931	    | 0.193859  |
-4	|b88016fd-146a-4238-ac7c-ab8e3e1264bf|	736	    | 0.199539  |
+| # | Session ID                                | n_trials | MAE      |
+|---|-------------------------------------------|----------|----------|
+| 1 | 81362661-8f80-45b1-90ad-749251c9fe13       | 865      | 0.172339 |
+| 2 | a4f7079b-d157-4de9-ba80-de9a98f35c8b       | 682      | 0.177259 |
+| 0 | a55aafed-b496-49fb-8948-680695f806d5       | 1022     | 0.181604 |
+| 3 | 85501aad-64e6-4137-a44e-2c933c9eec5f       | 931      | 0.193859 |
+| 4 | b88016fd-146a-4238-ac7c-ab8e3e1264bf       | 736      | 0.199539 |
 
 
 
@@ -98,9 +99,8 @@ These findings align with recent literature showing that performance decrements 
 
 This project demonstrates that boredom and disengagement in mice can be objectively quantified and predicted using interpretable behavioral features and machine learning. The continuous boredom score provides a nuanced measure of engagement, and the model’s high predictive accuracy underscores the value of feature engineering and temporal modeling in behavioral neuroscience.
 
----
 
-### **References to Literature**
+### **References **
 
 - **Performance Drop as a Marker:**  
   [\[Nature, 2025\]](https://www.nature.com/articles/s44277-025-00025-0): Performance decrements over time are linked to vigilance loss, not just physical disengagement.
@@ -108,3 +108,7 @@ This project demonstrates that boredom and disengagement in mice can be objectiv
   [\[Systematic Review, 2022\]](https://pmc.ncbi.nlm.nih.gov/articles/PMC9435384/): Reaction time, trial omission, and performance are validated as boredom/disengagement proxies.
 - **Stimulus-Seeking and Boredom:**  
   [\[Nature Communications, 2023\]](https://www.nature.com/articles/s41467-023-38130-3): Mice in monotonous environments seek novel or even aversive stimuli, reflecting boredom-driven behavior.
+
+### **Files**
+`code.ipynb` : Notebook containing code
+`README.md` : as a report and README
