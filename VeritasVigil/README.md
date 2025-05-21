@@ -45,3 +45,7 @@ Includes token frequency plots, word clouds, ROC curves, and confusion matrices.
 ## Conclusion
 The comparative analysis demonstrates that SVM with TF-IDF features is
 the optimal approach for this dataset, achieving the highest accuracy and discrimination.
+
+## Files
+1. `code.ipynb` - Notebook cotaining the code
+2. `Report.pdf` - Documentation
