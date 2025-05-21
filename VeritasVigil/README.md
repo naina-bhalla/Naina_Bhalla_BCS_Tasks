@@ -6,9 +6,9 @@
 2. Custom Tokenization
 3. Rule-Based POS Tagging
 4. Lemmatization based on POS tags
-5. Feature Extraction
-    a. Bag-of-Words
-    b. TF-IDF 
+5. Feature Extraction <br>
+    a. Bag-of-Words<br>
+    b. TF-IDF <br>
 6. Classification Models: 
 Trains and compares Naive Bayes and Linear SVM for detecting fake news.
 7. Visualizations
