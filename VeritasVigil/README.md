@@ -32,13 +32,15 @@ Includes token frequency plots, word clouds, ROC curves, and confusion matrices.
 
 ![alt text](image-3.png)
 
-<b>Comparitive Analysis</b>
-<br>
-    Model                   Accuracy  Precision   Recall   F1-score   ROC AUC
-0  Naive Bayes (BoW)        0.946313   0.956231  0.945154  0.950660  0.975382 <br>
-1  Naive Bayes (TF-IDF)     0.936352   0.924966  0.961702  0.942976  0.981883 <br>
-2  SVM (BoW)                0.993920   0.993861  0.995035  0.994448  0.997948 <br>
-3  SVM (TF-IDF)             0.993402   0.992690  0.995272  0.993979  0.999042 <br>
+## 📊 Comparative Analysis
+
+| Model                | Accuracy  | Precision | Recall   | F1-score | ROC AUC  |
+|---------------------|-----------|-----------|----------|----------|----------|
+| Naive Bayes (BoW)   | 0.946313  | 0.956231  | 0.945154 | 0.950660 | 0.975382 |
+| Naive Bayes (TF-IDF)| 0.936352  | 0.924966  | 0.961702 | 0.942976 | 0.981883 |
+| SVM (BoW)           | 0.993920  | 0.993861  | 0.995035 | 0.994448 | 0.997948 |
+| SVM (TF-IDF)        | 0.993402  | 0.992690  | 0.995272 | 0.993979 | 0.999042 |
+
 
 ## Conclusion
 The comparative analysis demonstrates that SVM with TF-IDF features is
